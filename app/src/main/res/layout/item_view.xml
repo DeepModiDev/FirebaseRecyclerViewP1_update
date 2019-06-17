@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/userName_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textAllCaps="true"
+        android:text="User name"
+        />
+
+    <TextView
+        android:id="@+id/userSurname_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textAllCaps="true"
+        android:text="User name"
+        android:layout_below="@id/userName_textView"
+        />
+
+        <TextView
+            android:id="@+id/user_number_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:text="User name"
+            android:layout_below="@id/userSurname_textView"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
