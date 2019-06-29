@@ -1,13 +1,11 @@
 package com.deepmodi.firebaserecyclerviewp1.ViewHolder;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.deepmodi.firebaserecyclerviewp1.R;
-
-import org.w3c.dom.Text;
 
 public class CategoryViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
